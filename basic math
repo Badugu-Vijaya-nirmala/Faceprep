@@ -1,0 +1,10 @@
+import math
+   a=input()
+   a=math.floor(a*100)/100
+   print(a)
+
+import math
+n=float(input())
+print(int(n))
+print(math.ceil(n))
+print(math.floor(n))
