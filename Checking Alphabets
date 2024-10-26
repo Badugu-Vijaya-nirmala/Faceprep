@@ -1,0 +1,27 @@
+Description
+Jeni and her brothers Joseph and John found themselves in Narnia, the land of magic during World War III. Narnia was completely filled with gentle people and also it is where the trees sing, the fauns dance, 
+and animals talk. Being from England, Jeni wanted to teach the kids the English language. She started teaching them the alphabet but then she remembered that she might have to go to London and felt sad. John
+and Joseph discussed with each other and suggested an idea to Jeni to come up with a program so that the kids can learn on their own when she was not there. Can you help Jeni to write a program to 
+check whether the given character is a vowel or consonant or alphabet?
+
+Input Format
+The input consists of a character.
+Output Format
+The output should be any one of the below-given strings. Vowel or Consonant or Not an alphabet.
+
+Sample Input 
+e
+Sample Output 
+Vowel
+
+Explanation 
+﻿The input character e is a vowel and hence it prints Vowel.
+
+program:
+n=input()
+if n=='A' or n=='E' or n=='I' or n=='O' or n=='U' or n=='a' or n=='e' or n=='i' or n=='o' or n=='u':
+  print("Vowel")
+elif n=='B'or n=='C' or n=='D' or n=='F' or n=='G' or n=='H' or n=='J' or n=='K' or n=='L' or n=='M' or n=='N' or n=='P' or n=='Q' or n=='R' or n=='S' or n=='T' or n=='V' or n=='W' or n=='X' or n=='Y' or n=='Z' or n=='b' or n=='c' or n=='d' or n=='f' or n=='g' or n=='h' or n=='j' or n=='k' or n=='l' or n=='m' or n=='n' or n=='p' or n=='q' or n=='r' or n=='s' or n=='t' or n=='v' or n=='w' or n=='x' or n=='y' or n=='z': 
+  print("Consonant")
+else:
+  print("Not an alphabet")
